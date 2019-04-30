@@ -1,3 +1,4 @@
+alert("Sound On!");
 for (let i = 0; i < document.querySelectorAll(".drum-set").length; ++i) {
   // adding an event listener to each of the buttons
   document.querySelectorAll(".drum-set")[i].addEventListener("click", evt => {
